@@ -118,7 +118,6 @@ async function deleteOrder(req, res, next) {
   }
 }
 
-
 module.exports = autoCatch({
   handleRoot,
   listProducts,
